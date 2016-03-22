@@ -16,6 +16,10 @@ using Microsoft.Owin.Security.OAuth;
 using Drempeltje.Models;
 using Drempeltje.Providers;
 using Drempeltje.Results;
+using Drempeltje.Web;
+using Drempeltje.Web.Models;
+using Drempeltje.Web.Providers;
+using Drempeltje.Web.Results;
 
 namespace Drempeltje.Controllers
 {
