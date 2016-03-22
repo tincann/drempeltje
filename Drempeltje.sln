@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drempeltje.Web", "Drempeltje\Drempeltje.Web.csproj", "{DE60DF14-E89C-4315-B6DE-F7EAC61AF08E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dremmeltsj", "Dremmeltsj\Dremmeltsj.csproj", "{64EA942D-EFB7-4FC8-9E30-75FFD9E7956D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DE60DF14-E89C-4315-B6DE-F7EAC61AF08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE60DF14-E89C-4315-B6DE-F7EAC61AF08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE60DF14-E89C-4315-B6DE-F7EAC61AF08E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64EA942D-EFB7-4FC8-9E30-75FFD9E7956D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64EA942D-EFB7-4FC8-9E30-75FFD9E7956D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64EA942D-EFB7-4FC8-9E30-75FFD9E7956D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64EA942D-EFB7-4FC8-9E30-75FFD9E7956D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
