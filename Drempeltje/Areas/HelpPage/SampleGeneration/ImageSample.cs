@@ -1,6 +1,6 @@
 using System;
 
-namespace Drempeltje.Areas.HelpPage
+namespace Drempeltje.Web.Areas.HelpPage.SampleGeneration
 {
     /// <summary>
     /// This represents an image sample on the help page. There's a display template named ImageSample associated with this class.

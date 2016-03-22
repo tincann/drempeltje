@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Net.Http.Headers;
 using System.Web.Http.Description;
-using Drempeltje.Areas.HelpPage.ModelDescriptions;
+using Drempeltje.Web.Areas.HelpPage.ModelDescriptions;
 
-namespace Drempeltje.Areas.HelpPage.Models
+namespace Drempeltje.Web.Areas.HelpPage.Models
 {
     /// <summary>
     /// The model that represents an API displayed on the help page.

@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using Drempeltje.Web.Models;
+using Drempeltje.Web.Providers;
 using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
-using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
-using Drempeltje.Providers;
-using Drempeltje.Models;
 
-namespace Drempeltje
+namespace Drempeltje.Web
 {
     public partial class Startup
     {

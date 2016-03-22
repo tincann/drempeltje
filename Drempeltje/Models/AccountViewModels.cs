@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Drempeltje.Models
+namespace Drempeltje.Web.Models
 {
     // Models returned by AccountController actions.
 

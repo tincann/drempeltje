@@ -1,7 +1,8 @@
 using System.Web.Http;
 using System.Web.Mvc;
+using Drempeltje.Web.Areas.HelpPage.App_Start;
 
-namespace Drempeltje.Areas.HelpPage
+namespace Drempeltje.Web.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {

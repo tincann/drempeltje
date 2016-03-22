@@ -3,7 +3,7 @@ using System.Text;
 using System.Web;
 using System.Web.Http.Description;
 
-namespace Drempeltje.Areas.HelpPage
+namespace Drempeltje.Web.Areas.HelpPage
 {
     public static class ApiDescriptionExtensions
     {

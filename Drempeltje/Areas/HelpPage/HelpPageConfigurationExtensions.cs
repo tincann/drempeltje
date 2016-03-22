@@ -11,10 +11,11 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using Drempeltje.Areas.HelpPage.ModelDescriptions;
-using Drempeltje.Areas.HelpPage.Models;
+using Drempeltje.Web.Areas.HelpPage.ModelDescriptions;
+using Drempeltje.Web.Areas.HelpPage.Models;
+using Drempeltje.Web.Areas.HelpPage.SampleGeneration;
 
-namespace Drempeltje.Areas.HelpPage
+namespace Drempeltje.Web.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

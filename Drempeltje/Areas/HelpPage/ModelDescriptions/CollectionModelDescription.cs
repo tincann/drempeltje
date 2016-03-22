@@ -1,4 +1,4 @@
-namespace Drempeltje.Areas.HelpPage.ModelDescriptions
+namespace Drempeltje.Web.Areas.HelpPage.ModelDescriptions
 {
     public class CollectionModelDescription : ModelDescription
     {

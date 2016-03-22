@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Drempeltje.Web;
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(Drempeltje.Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 
-namespace Drempeltje
+namespace Drempeltje.Web
 {
     public partial class Startup
     {

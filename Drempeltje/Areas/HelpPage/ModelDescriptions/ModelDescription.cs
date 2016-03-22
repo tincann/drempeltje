@@ -1,6 +1,6 @@
 using System;
 
-namespace Drempeltje.Areas.HelpPage.ModelDescriptions
+namespace Drempeltje.Web.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Describes a type model.

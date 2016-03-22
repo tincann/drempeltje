@@ -5,9 +5,9 @@ using System.Reflection;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
 using System.Xml.XPath;
-using Drempeltje.Areas.HelpPage.ModelDescriptions;
+using Drempeltje.Web.Areas.HelpPage.ModelDescriptions;
 
-namespace Drempeltje.Areas.HelpPage
+namespace Drempeltje.Web.Areas.HelpPage
 {
     /// <summary>
     /// A custom <see cref="IDocumentationProvider"/> that reads the API documentation from an XML documentation file.

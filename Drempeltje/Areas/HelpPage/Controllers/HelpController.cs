@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using Drempeltje.Areas.HelpPage.ModelDescriptions;
-using Drempeltje.Areas.HelpPage.Models;
+using Drempeltje.Web.Areas.HelpPage.ModelDescriptions;
+using Drempeltje.Web.Areas.HelpPage.Models;
 
-namespace Drempeltje.Areas.HelpPage.Controllers
+namespace Drempeltje.Web.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

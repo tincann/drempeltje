@@ -1,7 +1,7 @@
 using System;
 using System.Reflection;
 
-namespace Drempeltje.Areas.HelpPage.ModelDescriptions
+namespace Drempeltje.Web.Areas.HelpPage.ModelDescriptions
 {
     public interface IModelDocumentationProvider
     {

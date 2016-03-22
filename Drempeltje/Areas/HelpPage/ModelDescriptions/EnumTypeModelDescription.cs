@@ -1,7 +1,6 @@
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace Drempeltje.Areas.HelpPage.ModelDescriptions
+namespace Drempeltje.Web.Areas.HelpPage.ModelDescriptions
 {
     public class EnumTypeModelDescription : ModelDescription
     {
