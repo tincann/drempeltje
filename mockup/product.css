@@ -1,0 +1,176 @@
+form .form_element{
+	position:relative;
+	padding:10px 6px 10px 6px;
+}
+form .form_element label{
+	width:120px;
+	float:left;
+	font-weight:bold;
+	line-height:14px;
+	height:14px;
+	margin:3px 20px 0 0;
+}
+form .form_element label.heightfix{
+	height:24px;
+}
+form .no_input label{
+	margin-top:0px;
+}
+form .form_element .tooltip-icon{
+	width:12px;
+	margin:4px;
+	position:absolute;
+	left:128px;
+}
+form .form_element input[type=text], form .form_element input[type=password]{
+	margin:0 10px 0 0;
+}
+form .form_element input[type=checkbox]{
+	float:left;
+	margin:1px 10px 0 0;
+	padding:0px;
+}
+form .form_element span.value{
+	color:#ABA195;
+}
+form div.nolabel, div.smallcontainer form div.nolabel, div.container form div.nolabel{
+	margin-left:140px;
+}
+form div.nolabel label{
+	width:100%;
+	float:none;
+	font-weight:normal;
+	margin:0;
+}
+form .form_element a.annuleren, a.annuleren, .annuleren{
+	text-decoration:underline;
+	margin-left:10px;
+	line-height:20px;
+}
+
+form .validation-error{	
+	background-color: #FFDBD0;
+}
+form .form_element input[type=text].validation-error, form .form_element input[type=password].validation-error{
+	background-color: #FFF;
+}
+div.paccode form .form_element input[type=text].validation-error{
+	background-color: #FFF3EF;
+}
+form .notification{
+	display:none;
+	clear:both;
+}
+form .validation-error .notification{
+	margin-left:140px;
+	padding-top:6px;
+	display:block;
+}
+form .notification p{
+	padding:0px;
+}
+form #paccode span.pacconnector{
+	padding:0 4px;
+	font-size: 17px;
+	font-weight: bold;
+}
+form #paccode input.paccode_0, form #newmobile input.countrycode, form #newmobile2 input.countrycode2 {
+	margin:0;
+}
+form #paccode input.paccode_0, form #paccode input.paccode_1, form #newmobile input.countrycode, form #newmobile2 input.countrycode2{
+	width:35px;
+}
+form #paccode input.paccode_0, form #paccode input.paccode_1{
+	text-transform: uppercase;
+}
+
+div.form-indent{
+	padding:10px 6px 10px 148px;
+}
+
+form.inlineform{
+	display:inline;
+}
+form .form_element a.changevalue{
+	margin-left:20px;
+}
+
+/* Submit buttons */
+button.submit::-moz-focus-inner{
+padding:0;
+border:0
+}
+
+button.submit{
+color:#fff;
+margin:0;
+font-weight: bold;
+-webkit-appearance:button;
+display:inline-block;
+-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 2px rgba(0,0,0,.05);
+-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 2px rgba(0,0,0,.05);
+box-shadow:inset 0 1px 0 rgba(255,255,255,.4),0 1px 2px rgba(0,0,0,.05);
+border:1px solid #aba195;
+-webkit-border-radius:2px;
+-moz-border-radius:2px;
+border-radius:2px;
+font-size:12px;
+line-height:16px;
+text-align:center;
+text-decoration:none;
+vertical-align:middle;
+margin-right:17px;
+margin-bottom:0;
+padding:4px 10px;
+cursor:pointer;
+}
+
+button.submit:focus{
+outline:thin dotted #77726c;
+outline:5px auto -webkit-focus-ring-color;
+outline-offset:-2px;
+}
+
+button.submit:active{
+outline:0;
+border:1px solid #aba195;
+background:#f8f8f8;
+box-shadow:inset 0 1px 3px #aba195;
+cursor:auto;
+}
+
+
+button.submit{
+border-color:#a33702;
+background-color:#f06000;
+background-image:-moz-linear-gradient(top,#f60,#d95701);
+background-image:-webkit-gradient(linear,0 0,0 100%,from(#f60),to(#d95701));
+background-image:-webkit-linear-gradient(top,#f60,#d95701);
+background-image:-o-linear-gradient(top,#f60,#d95701);
+background-image:linear-gradient(to bottom,#f60,#d95701);
+background-repeat:repeat-x;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff6600', endColorstr='#ffd95701', GradientType=0);
+}
+
+button.submit:hover,button.submit:active{
+border-color:#a33702;
+background-color:#ff8f00;
+background-image:-moz-linear-gradient(top,#fa0,#f60);
+background-image:-webkit-gradient(linear,0 0,0 100%,from(#fa0),to(#f60));
+background-image:-webkit-linear-gradient(top,#fa0,#f60);
+background-image:-o-linear-gradient(top,#fa0,#f60);
+background-image:linear-gradient(to bottom,#fa0,#f60);
+background-repeat:repeat-x;
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffaa00', endColorstr='#ffff6600', GradientType=0);
+}
+
+button.normallink{
+    background-color:#fff;
+    border:none;
+	cursor:pointer;
+	line-height:1;
+	padding-left:0;
+}
+button.link{
+	padding-left:9px;
+}
