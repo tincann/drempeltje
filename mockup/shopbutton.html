@@ -4830,7 +4830,18 @@ jona derksen
 aasdf -->
 </div>
 <a href="inloggen.html">
-<img src="tekentje.png" class="drempel-logo" alt="Drempeltje" height="42" width="42"> </img>
+
+<style>
+#abonneerknoppie{
+  width: 150px;
+  background-color: #f77f00;
+}
+#plaatje{
+  position: absolute;
+  top: -10px;
+}
+</style>
+
 </a>
 </div>
 <div class="fluid-grid fluid-grid--l">
@@ -5001,13 +5012,14 @@ Partylook B.V.
 <input name="/atg/commerce/order/purchase/CartModifierFormHandler.buyBlockType" value="BuyBlock" type="hidden"/><input name="_D:/atg/commerce/order/purchase/CartModifierFormHandler.buyBlockType" value=" " type="hidden"/>
 <div class="c-btn-buy--large sb-button sb-plus">
 
+<input data-suppress-accessories-redirect="false" data-offer-id="1001029823321649" data-product-id="1004004013558893" name="/atg/commerce/order/purchase/CartModifierFormHandler.addSecondHandItemToOrder" value="In winkelwagentje" class="h-boxedright--xs fleft js_floating_basket_btn js_preventable_buy_action" data-has-additional-page="false" data-size-pick-prevent="add_to_basket" type="submit" data-button-type="add_to_basket"/>
 
 
-
-
-
-
-<input data-suppress-accessories-redirect="false" data-offer-id="1001029823321649" data-product-id="1004004013558893" name="/atg/commerce/order/purchase/CartModifierFormHandler.addSecondHandItemToOrder" value="In winkelwagentje" class="h-boxedright--xs fleft js_floating_basket_btn js_preventable_buy_action" data-has-additional-page="false" data-size-pick-prevent="add_to_basket" type="submit" data-button-type="add_to_basket"/><input name="_D:/atg/commerce/order/purchase/CartModifierFormHandler.addSecondHandItemToOrder" value=" " type="hidden"/>
+<div class="c-btn-buy--large sb-button sb-plus">
+<img id="plaatje" src="logo-ing-lion-01.svg" style="fill: rgb(255, 255, 255)" class="drempel-logo" alt="Drempeltje" height="42" width="42"> </img>
+<input style="padding-left: 5em" id="abonneerknoppie" value="Ik bied" class="h-boxedright--xs js_floating_basket_btn js_preventable_buy_action"type="submit"/>
+</div>
+<input name="_D:/atg/commerce/order/purchase/CartModifierFormHandler.addSecondHandItemToOrder" value=" " type="hidden"/>
 </div>
 
 
